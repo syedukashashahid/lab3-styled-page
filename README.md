@@ -10,5 +10,7 @@ CIT331 Lab 3. A responsive profile page styled with CSS3.
 - CSS variables, contrast-checked colors and visible keyboard focus
  
 ## Screenshots
+
 ![Desktop view](screenshots/desktop.png)
+
 ![Mobile view](screenshots/mobile.png)
