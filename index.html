@@ -21,15 +21,22 @@
     </header>
 
     <main>
-        <article id="about">
+        <article id="about" class="card">
+            <span class="badge">New</span>
             <h2>About Me</h2>
-            <figure>
-                <img src="assets/profile.jpg" alt="Photo of [Ukasha]" width="180">
-                <figcaption>That's me!</figcaption>
-            </figure>
+            <div class="about-body">
+                <figure>
+                    <img src="assets/profile.jpg" alt="Photo of [Ukasha]" width="180">
+                    <figcaption>That's me!</figcaption>
+                </figure>
+            </div>
             <p>I am a BSCS student interested in technology and web development. This semester, I am focusing on
                 improving my programming and practical skills.</p>
-            <span class="badge">New</span>
+            <blockquote>
+                <p>"The best way to learn is by building."</p>
+            </blockquote>
+            </div>
+            </div>
         </article>
         <section id="skills">
             <h2>Skills I'm Building This Semester</h2>
@@ -63,6 +70,7 @@
         <section id="contact">
             <h2>Contact Me</h2>
             <form id="contact-form">
+
                 <fieldset>
                     <legend>Send me a message</legend>
                     <label for="name">Name</label>
@@ -90,21 +98,22 @@
                     <button type="submit">Send</button>
                     <button id="clear-btn" type="button">Clear Saved Data</button>
                 </fieldset>
+                <div class="row">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
             </form>
         </section>
     </main>
 
     <p class="demo-a">Paragraph A</p>
     <p class="demo-b">Paragraph B</p>
-
-    /* TEMPORARY */
-    .demo-a { margin-bottom: 40px; }
-    .demo-b { margin-top: 20px; }
-
-    <blockquote>
-        <p>"The best way to learn is by building."</p>
-    </blockquote>
-
 
     <p><strong>Transcript summary:</strong> I am taking this course because i want to earn some money. Plus i am very
         intrested in this course as i want to go in a security so before the security i have to understand the web</p>
